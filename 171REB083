@@ -1,0 +1,73 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{fixlatvian}
+\usepackage{verbatim}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{mathtools}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\large{RĪGAS TEHNISKĀ UNIVERSITĀTE \\\vspace{1mm} ELEKTRONIKAS UN TELEKOMUNIKĀCIJU FAKULTĀTE \\}
+\end{center}
+
+\vspace{3cm}
+
+\begin{center}
+Signālu teorijas pamati\\
+3.laboratorijas darbs
+\end{center}
+
+\begin{center}
+\textbf{Periodiska signāla spektra cikla pētīšana}
+\end{center}
+
+\vspace{5cm}
+
+\begin{flushright}
+Kristiāns Slics
+ \end{flushright}
+
+ \begin{flushright}
+151REB069
+ \end{flushright}
+ 
+ \begin{flushright}
+REMB01
+ \end{flushright}
+
+\vfill
+\begin{center}
+\scshape{RĪGA,2017}
+\end{center}
+\end{titlepage}
+
+\begin{figure}
+\caption{Mājas darbs} 
+{\includegraphics[width=5cm]{111(1).jpg}}
+
+\end{figure}
+
+\vspace{2cm}
+Līdzkomponente :
+
+
+$\frac{1}{2}\cdot a_{0}=\frac{1}{T}\int_{t_{0}}^{t_{0}+T} s(t)dt=\frac{2}{T}\int_{0}^{T/8} 0.05\cdot dt=\frac{2}{T}\cdot 0.05\cdot t|_{0}^{T/8}=0.0125[V]$
+
+
+
+
+\begin{figure}[!b]
+\centering
+\caption{Slēguma blokshēma Selektīvā pastiprinātāja principiālā shēma} 
+{\includegraphics[width=15cm]{111.jpg}}
+
+\end{figure}
+
+
+
+\end{document}
