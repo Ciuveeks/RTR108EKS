@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fixlatvian}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{0.5cm}
+        
+        \textsc{}{Rīgas Tehniskā Universitāte \\
+Elektronikas un telekomunikāciju fakultāte \\
+Radioelektronikas institūts \\
+Elektronikas pamatu katedra}
+        
+        \vspace{0.5cm}
+        
+        \textbf{Signālu teorijas pamati}
+        
+        \vspace{0.5cm}
+        
+        \textbf{Laboratorijas darbs Nr. 2.}
+        
+        \vspace{0.5cm}
+        
+        \textsc{Iepazīšanās ar periodisku signālu izvērsi trigonometrisku funkciju Furjē rindā}
+        
+      
+      
+       \begin{flushright}
+        
+        \vfill
+       Ģirts Čerbakovs REBC04
+        
+        \vspace{0.8cm}
+        Stud. apl. Nr. 171REB124 
+        
+        \end{flushright}
+        
+        \vspace{4cm}
+        
+         RĪGA\\
+        2017\\
+        
+        
+        
+    \end{center}
+\end{titlepage}
+
+
+
+
+\section{Darba mērķis}
+Iepazīties ar trigonometrisku funkciju Furjē rindas dažiem pielietojumiem un īpašībām:
+rindas koeficientu noteikšana, amplitūdu spektrs, Beseļa nevienādība, periodisku signālu
+sintēze, izmantojot trigonometriskas funkcijas.
+
+\section{Uzdevums un darba izpildes kārtība}
+Dots signāls:
+
+\begin{flushleft}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=6cm]{signals.jpg}
+  \label{1}
+\end{figure}
+
+\end{flushleft}
+
+\texttt{Kontinuālus signālus ar ierobežotu vidējo jaudu, kuri ierobežoti laika intervālā  t ∈[t0 , t0 + T ] var aprakstīt kā trigonometrisku funkciju rindu}
+
+
+\begin{equation}
+s(t)=\frac{1}{2}a_{0}+\sum_{n=1}^{\infty }(a_{n}cos\frac{2n\prod t}{T}+b_{n}sin\frac{2n\prod t}{T})
+\end{equation}
+
+\texttt{Tiek pieņemts, ka signāla periods ir 1 sekunde un koordinātu sākums ir tieši pa vidu
+signālam ar līmeni 1 V, līdz ar to tā ir pāra funkcija, jo s(t)=s(-t) un Furjē rindas bn koeficienti
+vienādi ar nulli.}\
+
+
+\begin{flushleft}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=6cm]{signals2.jpg}
+  \label{1}
+\end{figure}
+
+\end{flushleft}
+
+
+
+
+
+
+\end{document}
